@@ -22,6 +22,4 @@
 
 ### demo
 
-```
 ![1.gif](https://i.loli.net/2019/09/09/SkRaZu62tpGf3I7.gif)
-```
