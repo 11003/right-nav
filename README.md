@@ -14,6 +14,7 @@
         <ul class="right-nav" id="right-nav-box"></ul>
         <p>your code...</p>
     </article>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.slim.min.js"></script>
 <script src="js/right-nav.js"></script>
 </body>
 </html>
