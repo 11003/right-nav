@@ -9,7 +9,8 @@
             if (tagContent != '') {
                 var navId = "nav-" + tagName + "-" + index.toString();
                 $(this).attr("id", navId); //为当前h标签设置id
-                $(".right-nav").append("<li class='item "+ navId +"'><a style='padding-left: " + dis + "px' href='#" + navId + "'>" + tagContent + "</a></li>").show(); //在目标DIV中添加内容
+                bold = tagName == "H1" ? "font-weight:bold;" : "";
+                $(".right-nav").append("<li class='item "+ navId +"'><a style='padding-left: " + dis + "px;"+ bold +"' href='#" + navId + "'>" + tagContent + "</a></li>").show(); //在目标DIV中添加内容
             }
         }
     });
@@ -38,25 +39,25 @@
     function HContentPaddingLeft(tagName) {
         switch (tagName) {
         case "2":
-            tagName = "40"
+            tagName = "40";
             break;
         case "3":
-            tagName = "65"
+            tagName = "65";
             break;
         case "4":
-            tagName = "75"
+            tagName = "75";
             break;
         case "5":
-            tagName = "88"
+            tagName = "88";
             break;
         case "6":
-            tagName = "95"
+            tagName = "95";
             break;
         case "7":
-            tagName = "100"
+            tagName = "100";
             break;
         default:
-            tagName = "20"
+            tagName = "20";
         }
         return tagName;
     }
