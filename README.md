@@ -10,7 +10,7 @@
 </head>
 <body>
     <header id="header"></header>
-    <article class="article-content">
+    <article id="article-content">
         <ul class="right-nav" id="right-nav-box"></ul>
         <p>your code...</p>
     </article>
